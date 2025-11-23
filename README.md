@@ -5,14 +5,14 @@
 /* ===========================================
    1. DROP TABLES (if already exists)
 =========================================== */
-
+'''sql
 DROP TABLE IF EXISTS return_status;
 DROP TABLE IF EXISTS issued_status;
 DROP TABLE IF EXISTS members;
 DROP TABLE IF EXISTS books;
 DROP TABLE IF EXISTS employees;
 DROP TABLE IF EXISTS branch;
-
+'''
 /* ===========================================
    2. CREATE TABLES
 =========================================== */
